@@ -1,0 +1,74 @@
+/*
+'mpc': {
+  DEFAULT: '#2070B1',
+  50: '#E1EEFA',
+  100: '#CFE5F6',
+  200: '#ADD2F0',
+  300: '#8ABFEA',
+  400: '#68ACE4',
+  500: '#4599DD',
+  600: '#2686D4',
+  700: '#2070B1',
+  800: '#175281',
+  900: '#0F3452',
+  950: '#0B253A'
+},
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #ffffff;
+  background: #2070b1;
+  padding: 0;
+  margin: 0;
+}
+
+#mainContent {
+	z-index: 99;
+}
+
+.site-logo {
+  display: flex;
+  align-items: center;
+  flex-direction: column
+}
+
+#logo {
+  position: relative;
+  margin: 0;
+  width: 7rem;
+  z-index: 3;
+}
+
+.site-title {
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+  text-transform: uppercase;
+  padding: 0.25rem 0.25rem 0.25rem 0.25rem;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.site-title-contact {
+	position: absolute;
+	bottom: 5%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+  font-size: 0.875rem;
+  letter-spacing: 0.03125rem;
+  outline: none;
+}
