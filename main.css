@@ -61,6 +61,7 @@ body {
   padding: 0.25rem 0.25rem 0.25rem 0.25rem;
   font-size: 2rem;
   font-weight: 800;
+  text-align: center;
 }
 
 .site-title-contact {
@@ -71,4 +72,12 @@ body {
   font-size: 0.875rem;
   letter-spacing: 0.03125rem;
   outline: none;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+      flex-wrap: wrap;
+}
+.site-title-contact a {
+	  color: #ffffff;
+	  text-decoration: none;
 }
